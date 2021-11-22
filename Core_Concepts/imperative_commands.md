@@ -1,6 +1,8 @@
 ### 유용한 옵션
 
-`--dry-run`: 명령어 실행 시 리소스 즉시 생성됨. 단순히 명령을 테스트하려면 `--dry-run=client` 옵션 사용하기. 리소스 생성 여부와 명령이 올바름 유무를 알려줌.
+`--dry-run`: 명령어 실행 시 리소스 즉시 생성됨. 
+
+- `--dry-run=client`  : 단순 명령 테스트 시 사용 -> 리소스 생성 여부와 명령의 올바름 유무 알려줌.
 
 `-o yaml`: 리소스 정의를 yaml 형식으로 출력
 
@@ -43,3 +45,4 @@
 <br>
 
 출처 : Certified Kubernetes Administrator (CKA) with Practice Tests 강의
+
